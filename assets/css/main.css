@@ -41,7 +41,7 @@ p {
 
 /* Links */
 a {
-    color: #f85c37;
+    color: #9D211C;
     word-wrap: break-word;
 
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -101,6 +101,12 @@ a:after {
 	color: #ffffff;
 	background-color: #9D211C;
 	border-color: transparent;
+}
+
+.btn-theme:hover, .btn-theme:focus {
+  color: #ffffff;
+  background-color: #9D211C;
+  outline: inherit;
 }
 
 .btn {
